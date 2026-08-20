@@ -1,200 +1,220 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="google-site-verification" content="GnXDmdhKNBdKpPRM2yWx4N9-wGRU0qSeg6WDKRpF0z8" />  
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MTT Shwe Zin Gold & Jewelry</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MTT Shwe Zin Gold & Jewelry</title>
 
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
 
-   <body>
+body{
+  font-family:Arial,sans-serif;
+  background:#fffaf0;
+  color:#333;
+}
 
-<img src="mtt-logo.png" alt="MTT Shwe Zin Gold & Jewelry"
-style="width:140px; height:auto; display:block; margin:20px auto;">
-   
-      font-family: Arial, sans-serif;
-      background: #fffaf0;
-      color: #333;
-    }
+.logo{
+  text-align:center;
+  padding:25px 15px 10px;
+  background:#7a0000;
+}
 
-    header {
-      background: #111;
-      color: #d4af37;
-      padding: 20px;
-      text-align: center;
-    }
+.logo img{
+  width:220px;
+  max-width:80%;
+  height:auto;
+}
 
-    header h1 {
-      font-size: 30px;
-      margin-bottom: 8px;
-    }
+header{
+  background:#111;
+  color:#d4af37;
+  text-align:center;
+  padding:25px 15px;
+}
 
-    header p {
-      color: white;
-    }
+header h1{
+  font-size:30px;
+  margin-bottom:8px;
+}
 
-    nav {
-      background: #d4af37;
-      padding: 12px;
-      text-align: center;
-    }
+header p{
+  color:white;
+}
 
-    nav a {
-      color: #111;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
+nav{
+  background:#d4af37;
+  padding:14px 10px;
+  text-align:center;
+}
 
-    .hero {
-      text-align: center;
-      padding: 80px 20px;
-      background: linear-gradient(135deg, #fff8dc, #f5d76e);
-    }
+nav a{
+  color:#111;
+  text-decoration:none;
+  margin:0 12px;
+  font-weight:bold;
+}
 
-    .hero h2 {
-      font-size: 42px;
-      color: #111;
-      margin-bottom: 15px;
-    }
+.hero{
+  text-align:center;
+  padding:80px 20px;
+  background:linear-gradient(135deg,#fff8dc,#f5d76e);
+}
 
-    .hero p {
-      font-size: 18px;
-      margin-bottom: 25px;
-    }
+.hero h2{
+  font-size:42px;
+  color:#111;
+  margin-bottom:15px;
+}
 
-    .button {
-      display: inline-block;
-      background: #111;
-      color: #d4af37;
-      padding: 14px 28px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-    }
+.hero p{
+  font-size:18px;
+  margin-bottom:25px;
+}
 
-    section {
-      padding: 50px 20px;
-      text-align: center;
-    }
+.button{
+  display:inline-block;
+  background:#111;
+  color:#d4af37;
+  padding:14px 28px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:bold;
+}
 
-    section h2 {
-      color: #b8860b;
-      margin-bottom: 20px;
-      font-size: 30px;
-    }
+section{
+  padding:60px 20px;
+  text-align:center;
+}
 
-    .cards {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin-top: 30px;
-    }
+section h2{
+  color:#b8860b;
+  margin-bottom:20px;
+  font-size:30px;
+}
 
-    .card {
-      background: white;
-      width: 280px;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    }
+.cards{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  margin-top:30px;
+}
 
-    .card h3 {
-      color: #b8860b;
-      margin-bottom: 10px;
-    }
+.card{
+  background:white;
+  width:280px;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
 
-    footer {
-      background: #111;
-      color: white;
-      text-align: center;
-      padding: 25px;
-    }
+.card h3{
+  color:#b8860b;
+  margin-bottom:10px;
+}
 
-    footer strong {
-      color: #d4af37;
-    }
+footer{
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:25px;
+}
 
-    @media (max-width: 600px) {
-      .hero h2 {
-        font-size: 30px;
-      }
+footer strong{
+  color:#d4af37;
+}
 
-      nav a {
-        display: inline-block;
-        margin: 6px;
-      }
-    }
-  </style>
+@media(max-width:600px){
+  header h1{
+    font-size:24px;
+  }
+
+  .hero h2{
+    font-size:30px;
+  }
+
+  nav a{
+    display:inline-block;
+    margin:6px;
+  }
+
+  .card{
+    width:100%;
+    max-width:330px;
+  }
+}
+</style>
 </head>
 
 <body>
-<div style="text-align:center; padding:20px;">
-<img src="viber_image_2026-08-19_23-34-03-744.jpg" alt="MTT Shwe Zin Gold Logo">
+
+<div class="logo">
+  <img src="mtt-logo.png" alt="MTT Shwe Zin Gold & Jewelry">
 </div>
-  <header>
-    <h1>MTT SHWE ZIN GOLD & JEWELRY</h1>
-    <p>Gold & Jewelry Shop</p>
-  </header>
 
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About Us</a>
-    <a href="#collection">Collection</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<header>
+  <h1>MTT SHWE ZIN GOLD & JEWELRY</h1>
+  <p>Gold & Jewelry Shop</p>
+</header>
 
-  <div class="hero" id="home">
-    <h2>Welcome to MTT Shwe Zin Gold</h2>
-    <p>Elegant Gold & Jewelry for Every Special Moment</p>
-    <a class="button" href="#contact">Contact Us</a>
-  </div>
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About Us</a>
+  <a href="#collection">Collection</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>
-     MTT Shwe Zin Gold & Jewelry provides beautiful gold and jewelry
-      collections with quality and trusted service.
-    </p>
-  </section>
+<div class="hero" id="home">
+  <h2>Welcome to MTT Shwe Zin Gold</h2>
+  <p>Elegant Gold & Jewelry for Every Special Moment</p>
+  <a class="button" href="#contact">Contact Us</a>
+</div>
 
-  <section id="collection">
-    <h2>Our Gold Collection</h2>
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    MTT Shwe Zin Gold & Jewelry provides beautiful gold and
+    jewelry collections with quality and trusted service.
+  </p>
+</section>
 
-    <div class="cards">
-      <div class="card">
-        <h3>Gold Rings</h3>
-        <p>Beautiful and elegant gold rings.</p>
-      </div>
+<section id="collection">
+  <h2>Our Gold Collection</h2>
 
-      <div class="card">
-        <h3>Gold Necklaces</h3>
-        <p>Premium necklaces for every occasion.</p>
-      </div>
+  <div class="cards">
 
-      <div class="card">
-        <h3>Gold Bracelets</h3>
-        <p>Elegant bracelets with beautiful designs.</p>
-      </div>
+    <div class="card">
+      <h3>Gold Rings</h3>
+      <p>Beautiful and elegant gold rings.</p>
     </div>
-  </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Visit MTT Shwe Zin Gold & Jewelry Shop</p>
-    <p style="margin-top:10px;">📞 Phone: Your Phone Number</p>
-  </section>
+    <div class="card">
+      <h3>Gold Necklaces</h3>
+      <p>Premium necklaces for every occasion.</p>
+    </div>
 
-  <footer>
-    <p>© 2026 <strong>Shwe Zin Gold & Jewelry</strong>. All Rights Reserved.</p>
-  </footer>
+    <div class="card">
+      <h3>Gold Bracelets</h3>
+      <p>Elegant bracelets with beautiful designs.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Visit MTT Shwe Zin Gold & Jewelry Shop</p>
+  <p style="margin-top:10px;">📞 Phone: Your Phone Number</p>
+</section>
+
+<footer>
+  <p>© 2026 <strong>Shwe Zin Gold & Jewelry</strong>. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
